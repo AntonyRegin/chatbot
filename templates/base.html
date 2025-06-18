@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Chatbot</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    /* Optional custom scrollbar */
+    .custom-scroll::-webkit-scrollbar {
+      width: 6px;
+    }
+    .custom-scroll::-webkit-scrollbar-thumb {
+      background-color: #cbd5e1;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body class="bg-gradient-to-br from-blue-50 to-indigo-100 min-h-screen font-sans">
+  {% block content %}{% endblock %}
+</body>
+</html>
